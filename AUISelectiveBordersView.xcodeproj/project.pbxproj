@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EED2B3DB14D1874E008E1DFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED2B3DA14D1874E008E1DFB /* UIKit.framework */; };
+		EED2B3DD14D1874E008E1DFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED2B3DC14D1874E008E1DFB /* Foundation.framework */; };
+		EED2B3DF14D1874E008E1DFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED2B3DE14D1874E008E1DFB /* CoreGraphics.framework */; };
+		EED2B3E514D1874E008E1DFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EED2B3E314D1874E008E1DFB /* InfoPlist.strings */; };
+		EED2B3E714D1874E008E1DFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EED2B3E614D1874E008E1DFB /* main.m */; };
+		EED2B3EB14D1874E008E1DFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EED2B3EA14D1874E008E1DFB /* AppDelegate.m */; };
+		EED2B3EE14D1874E008E1DFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EED2B3ED14D1874E008E1DFB /* ViewController.m */; };
+		EED2B3F114D1874E008E1DFB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED2B3EF14D1874E008E1DFB /* ViewController.xib */; };
+		EED2B40314D18B3B008E1DFB /* coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EED2B40214D18B3B008E1DFB /* coffee.jpg */; };
+		EED2B40814D18F38008E1DFB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED2B40714D18F38008E1DFB /* QuartzCore.framework */; };
+		EED2B40B14D19A19008E1DFB /* AUISelectiveBordersView.m in Sources */ = {isa = PBXBuildFile; fileRef = EED2B40A14D19A19008E1DFB /* AUISelectiveBordersView.m */; };
+		EED2B41114D1A11D008E1DFB /* UIView+AUISelectiveBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = EED2B41014D1A11D008E1DFB /* UIView+AUISelectiveBorder.m */; };
+		EED2B41414D1A24B008E1DFB /* AUISelectiveBordersLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EED2B41314D1A24B008E1DFB /* AUISelectiveBordersLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EED2B3D614D1874E008E1DFB /* AUISelectiveBordersView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AUISelectiveBordersView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED2B3DA14D1874E008E1DFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EED2B3DC14D1874E008E1DFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EED2B3DE14D1874E008E1DFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EED2B3E214D1874E008E1DFB /* AUISelectiveBordersView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AUISelectiveBordersView-Info.plist"; sourceTree = "<group>"; };
+		EED2B3E414D1874E008E1DFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EED2B3E614D1874E008E1DFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EED2B3E814D1874E008E1DFB /* AUISelectiveBordersView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AUISelectiveBordersView-Prefix.pch"; sourceTree = "<group>"; };
+		EED2B3E914D1874E008E1DFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EED2B3EA14D1874E008E1DFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EED2B3EC14D1874E008E1DFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EED2B3ED14D1874E008E1DFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EED2B3F014D1874E008E1DFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		EED2B40214D18B3B008E1DFB /* coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffee.jpg; sourceTree = "<group>"; };
+		EED2B40714D18F38008E1DFB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EED2B40914D19A19008E1DFB /* AUISelectiveBordersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AUISelectiveBordersView.h; path = AUISelectiveBordersView/AUISelectiveBordersView.h; sourceTree = "<group>"; };
+		EED2B40A14D19A19008E1DFB /* AUISelectiveBordersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AUISelectiveBordersView.m; path = AUISelectiveBordersView/AUISelectiveBordersView.m; sourceTree = "<group>"; };
+		EED2B40F14D1A11D008E1DFB /* UIView+AUISelectiveBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AUISelectiveBorder.h"; sourceTree = "<group>"; };
+		EED2B41014D1A11D008E1DFB /* UIView+AUISelectiveBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AUISelectiveBorder.m"; sourceTree = "<group>"; };
+		EED2B41214D1A24B008E1DFB /* AUISelectiveBordersLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUISelectiveBordersLayer.h; sourceTree = "<group>"; };
+		EED2B41314D1A24B008E1DFB /* AUISelectiveBordersLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUISelectiveBordersLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EED2B3D314D1874E008E1DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED2B40814D18F38008E1DFB /* QuartzCore.framework in Frameworks */,
+				EED2B3DB14D1874E008E1DFB /* UIKit.framework in Frameworks */,
+				EED2B3DD14D1874E008E1DFB /* Foundation.framework in Frameworks */,
+				EED2B3DF14D1874E008E1DFB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EED2B3CB14D1874E008E1DFB = {
+			isa = PBXGroup;
+			children = (
+				EED2B3E014D1874E008E1DFB /* AUISelectiveBordersView */,
+				EED2B3D914D1874E008E1DFB /* Frameworks */,
+				EED2B3D714D1874E008E1DFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EED2B3D714D1874E008E1DFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EED2B3D614D1874E008E1DFB /* AUISelectiveBordersView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EED2B3D914D1874E008E1DFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EED2B40714D18F38008E1DFB /* QuartzCore.framework */,
+				EED2B3DA14D1874E008E1DFB /* UIKit.framework */,
+				EED2B3DC14D1874E008E1DFB /* Foundation.framework */,
+				EED2B3DE14D1874E008E1DFB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EED2B3E014D1874E008E1DFB /* AUISelectiveBordersView */ = {
+			isa = PBXGroup;
+			children = (
+				EED2B3FB14D187BD008E1DFB /* Example */,
+				EED2B3FA14D187B1008E1DFB /* AUISelectiveBordersView */,
+				EED2B3E114D1874E008E1DFB /* Supporting Files */,
+			);
+			path = AUISelectiveBordersView;
+			sourceTree = "<group>";
+		};
+		EED2B3E114D1874E008E1DFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EED2B40214D18B3B008E1DFB /* coffee.jpg */,
+				EED2B3E214D1874E008E1DFB /* AUISelectiveBordersView-Info.plist */,
+				EED2B3E314D1874E008E1DFB /* InfoPlist.strings */,
+				EED2B3E614D1874E008E1DFB /* main.m */,
+				EED2B3E814D1874E008E1DFB /* AUISelectiveBordersView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EED2B3FA14D187B1008E1DFB /* AUISelectiveBordersView */ = {
+			isa = PBXGroup;
+			children = (
+				EED2B40914D19A19008E1DFB /* AUISelectiveBordersView.h */,
+				EED2B40A14D19A19008E1DFB /* AUISelectiveBordersView.m */,
+				EED2B40F14D1A11D008E1DFB /* UIView+AUISelectiveBorder.h */,
+				EED2B41014D1A11D008E1DFB /* UIView+AUISelectiveBorder.m */,
+				EED2B41214D1A24B008E1DFB /* AUISelectiveBordersLayer.h */,
+				EED2B41314D1A24B008E1DFB /* AUISelectiveBordersLayer.m */,
+			);
+			name = AUISelectiveBordersView;
+			sourceTree = "<group>";
+		};
+		EED2B3FB14D187BD008E1DFB /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				EED2B3E914D1874E008E1DFB /* AppDelegate.h */,
+				EED2B3EA14D1874E008E1DFB /* AppDelegate.m */,
+				EED2B3EC14D1874E008E1DFB /* ViewController.h */,
+				EED2B3ED14D1874E008E1DFB /* ViewController.m */,
+				EED2B3EF14D1874E008E1DFB /* ViewController.xib */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EED2B3D514D1874E008E1DFB /* AUISelectiveBordersView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED2B3F714D1874E008E1DFB /* Build configuration list for PBXNativeTarget "AUISelectiveBordersView" */;
+			buildPhases = (
+				EED2B3D214D1874E008E1DFB /* Sources */,
+				EED2B3D314D1874E008E1DFB /* Frameworks */,
+				EED2B3D414D1874E008E1DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AUISelectiveBordersView;
+			productName = AUISelectiveBordersView;
+			productReference = EED2B3D614D1874E008E1DFB /* AUISelectiveBordersView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EED2B3CD14D1874E008E1DFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Any.do;
+			};
+			buildConfigurationList = EED2B3D014D1874E008E1DFB /* Build configuration list for PBXProject "AUISelectiveBordersView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EED2B3CB14D1874E008E1DFB;
+			productRefGroup = EED2B3D714D1874E008E1DFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EED2B3D514D1874E008E1DFB /* AUISelectiveBordersView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EED2B3D414D1874E008E1DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED2B3E514D1874E008E1DFB /* InfoPlist.strings in Resources */,
+				EED2B3F114D1874E008E1DFB /* ViewController.xib in Resources */,
+				EED2B40314D18B3B008E1DFB /* coffee.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EED2B3D214D1874E008E1DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED2B3E714D1874E008E1DFB /* main.m in Sources */,
+				EED2B3EB14D1874E008E1DFB /* AppDelegate.m in Sources */,
+				EED2B3EE14D1874E008E1DFB /* ViewController.m in Sources */,
+				EED2B40B14D19A19008E1DFB /* AUISelectiveBordersView.m in Sources */,
+				EED2B41114D1A11D008E1DFB /* UIView+AUISelectiveBorder.m in Sources */,
+				EED2B41414D1A24B008E1DFB /* AUISelectiveBordersLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EED2B3E314D1874E008E1DFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED2B3E414D1874E008E1DFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EED2B3EF14D1874E008E1DFB /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED2B3F014D1874E008E1DFB /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EED2B3F514D1874E008E1DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EED2B3F614D1874E008E1DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EED2B3F814D1874E008E1DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AUISelectiveBordersView/AUISelectiveBordersView-Prefix.pch";
+				INFOPLIST_FILE = "AUISelectiveBordersView/AUISelectiveBordersView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EED2B3F914D1874E008E1DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AUISelectiveBordersView/AUISelectiveBordersView-Prefix.pch";
+				INFOPLIST_FILE = "AUISelectiveBordersView/AUISelectiveBordersView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EED2B3D014D1874E008E1DFB /* Build configuration list for PBXProject "AUISelectiveBordersView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED2B3F514D1874E008E1DFB /* Debug */,
+				EED2B3F614D1874E008E1DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED2B3F714D1874E008E1DFB /* Build configuration list for PBXNativeTarget "AUISelectiveBordersView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED2B3F814D1874E008E1DFB /* Debug */,
+				EED2B3F914D1874E008E1DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EED2B3CD14D1874E008E1DFB /* Project object */;
+}
