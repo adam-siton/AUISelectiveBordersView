@@ -17,7 +17,6 @@
 		EED2B3F114D1874E008E1DFB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED2B3EF14D1874E008E1DFB /* ViewController.xib */; };
 		EED2B40314D18B3B008E1DFB /* coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EED2B40214D18B3B008E1DFB /* coffee.jpg */; };
 		EED2B40814D18F38008E1DFB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED2B40714D18F38008E1DFB /* QuartzCore.framework */; };
-		EED2B40B14D19A19008E1DFB /* AUISelectiveBordersView.m in Sources */ = {isa = PBXBuildFile; fileRef = EED2B40A14D19A19008E1DFB /* AUISelectiveBordersView.m */; };
 		EED2B41114D1A11D008E1DFB /* UIView+AUISelectiveBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = EED2B41014D1A11D008E1DFB /* UIView+AUISelectiveBorder.m */; };
 		EED2B41414D1A24B008E1DFB /* AUISelectiveBordersLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EED2B41314D1A24B008E1DFB /* AUISelectiveBordersLayer.m */; };
 /* End PBXBuildFile section */
@@ -38,8 +37,6 @@
 		EED2B3F014D1874E008E1DFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		EED2B40214D18B3B008E1DFB /* coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffee.jpg; sourceTree = "<group>"; };
 		EED2B40714D18F38008E1DFB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		EED2B40914D19A19008E1DFB /* AUISelectiveBordersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AUISelectiveBordersView.h; path = AUISelectiveBordersView/AUISelectiveBordersView.h; sourceTree = "<group>"; };
-		EED2B40A14D19A19008E1DFB /* AUISelectiveBordersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AUISelectiveBordersView.m; path = AUISelectiveBordersView/AUISelectiveBordersView.m; sourceTree = "<group>"; };
 		EED2B40F14D1A11D008E1DFB /* UIView+AUISelectiveBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AUISelectiveBorder.h"; sourceTree = "<group>"; };
 		EED2B41014D1A11D008E1DFB /* UIView+AUISelectiveBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AUISelectiveBorder.m"; sourceTree = "<group>"; };
 		EED2B41214D1A24B008E1DFB /* AUISelectiveBordersLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUISelectiveBordersLayer.h; sourceTree = "<group>"; };
@@ -114,8 +111,6 @@
 		EED2B3FA14D187B1008E1DFB /* AUISelectiveBordersView */ = {
 			isa = PBXGroup;
 			children = (
-				EED2B40914D19A19008E1DFB /* AUISelectiveBordersView.h */,
-				EED2B40A14D19A19008E1DFB /* AUISelectiveBordersView.m */,
 				EED2B40F14D1A11D008E1DFB /* UIView+AUISelectiveBorder.h */,
 				EED2B41014D1A11D008E1DFB /* UIView+AUISelectiveBorder.m */,
 				EED2B41214D1A24B008E1DFB /* AUISelectiveBordersLayer.h */,
@@ -203,7 +198,6 @@
 				EED2B3E714D1874E008E1DFB /* main.m in Sources */,
 				EED2B3EB14D1874E008E1DFB /* AppDelegate.m in Sources */,
 				EED2B3EE14D1874E008E1DFB /* ViewController.m in Sources */,
-				EED2B40B14D19A19008E1DFB /* AUISelectiveBordersView.m in Sources */,
 				EED2B41114D1A11D008E1DFB /* UIView+AUISelectiveBorder.m in Sources */,
 				EED2B41414D1A24B008E1DFB /* AUISelectiveBordersLayer.m in Sources */,
 			);
