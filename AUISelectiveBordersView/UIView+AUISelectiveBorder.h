@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "AUISelectiveBordersLayer.h"
 
+// Importing this category will replace UIView's default CALayer with an AUISelectiveBordersLayer, so that you can use the selective borders directly as properties of the view.
 @interface UIView (AUISelectiveBorder)
 
 @property (nonatomic, strong) UIColor *selectiveBordersColor;
