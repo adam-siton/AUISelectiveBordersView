@@ -9,11 +9,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "AUISelectiveBordersView/ViewController.m"
-         timestampString = "349289388.683846"
+         timestampString = "352737073.628686"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "27"
-         endingLineNumber = "27"
+         startingLineNumber = "26"
+         endingLineNumber = "26"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
@@ -23,11 +23,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "AUISelectiveBordersView/UIView+AUISelectiveBorder.m"
-         timestampString = "349283967.263913"
+         timestampString = "352737073.628686"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "25"
-         endingLineNumber = "25"
+         startingLineNumber = "41"
+         endingLineNumber = "41"
          landmarkName = "-setSelectiveBorderFlag:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -37,11 +37,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "AUISelectiveBordersView/UIView+AUISelectiveBorder.m"
-         timestampString = "349283968.6399"
+         timestampString = "352737073.628686"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "37"
-         endingLineNumber = "37"
+         startingLineNumber = "53"
+         endingLineNumber = "53"
          landmarkName = "-setSelectiveBordersColor:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -51,11 +51,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "AUISelectiveBordersView/UIView+AUISelectiveBorder.m"
-         timestampString = "349283969.8079"
+         timestampString = "352737073.628686"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "49"
-         endingLineNumber = "49"
+         startingLineNumber = "65"
+         endingLineNumber = "65"
          landmarkName = "-setSelectiveBordersWidth:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -65,11 +65,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "AUISelectiveBordersView/AUISelectiveBordersLayer.m"
-         timestampString = "349289177.084827"
+         timestampString = "352737073.628686"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "68"
-         endingLineNumber = "68"
+         startingLineNumber = "85"
+         endingLineNumber = "85"
          landmarkName = "-layoutSublayers"
          landmarkType = "5">
       </FileBreakpoint>
