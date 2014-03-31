@@ -133,8 +133,8 @@
     
     UIBezierPath *path = [[UIBezierPath alloc] init];
     if (selectiveBorderFlag & AUISelectiveBordersFlagLeft) { // left border
-        CGPoint startPoint = CGPointMake(0-selectiveBordersWidth/2, 0);
-        CGPoint endPoint = CGPointMake(0-selectiveBordersWidth/2, CGRectGetMaxY(self.bounds));
+        CGPoint startPoint = CGPointMake(selectiveBordersWidth/2, 0);
+        CGPoint endPoint = CGPointMake(selectiveBordersWidth/2, CGRectGetMaxY(self.bounds));
         [path moveToPoint:startPoint];
         [path addLineToPoint:endPoint];
     }
